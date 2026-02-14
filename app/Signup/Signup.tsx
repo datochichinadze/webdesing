@@ -37,7 +37,7 @@ const Signup = ({ currentItem }: SignupProps) => {
     // formData.append("RepeatPassword", data.repeatPassword);
 
     try {
-      await axios.post("http://localhost:3000/auth/register", data);
+      await axios.post("https://webdesinback.onrender.com/auth/register", data);
 
       router.push("/main");
     } catch (error) {
