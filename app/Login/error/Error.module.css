@@ -1,0 +1,9 @@
+.errorStyleMessage {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .errorStyleMessage {
+    font-size: 10px;
+  }
+}
