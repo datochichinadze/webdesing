@@ -1,0 +1,34 @@
+.inputDivStyle {
+  position: relative;
+}
+
+.inputStyle {
+  display: flex;
+  border-radius: 20px;
+  width: 180px;
+  height: 40px;
+  padding: 0px 5px 0px 30px;
+  border: 1px solid #898989;
+}
+
+.imageStyle {
+  position: absolute;
+  top: 11px;
+  left: 8px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .inputStyle {
+    width: 114px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inputStyle {
+    display: none;
+  }
+
+  .imageStyle {
+    display: none;
+  }
+}

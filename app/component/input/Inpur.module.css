@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.inputStyle {
+  width: 473px;
+  height: 46px;
+  padding: 16px 50px 16px 16px;
+
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+  font-size: 14px;
+
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.inputStyle::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.inputStyle:focus {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .inputStyle {
+    width: 460px;
+  }
+
+  .container {
+    gap: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    gap: 10px;
+  }
+
+  .inputStyle {
+    width: 261px;
+  }
+}

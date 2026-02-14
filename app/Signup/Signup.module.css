@@ -1,0 +1,147 @@
+.becground {
+  display: flex;
+  justify-content: center;
+  background-image: url(https://bluesky.cdn.imgeng.in/cogstock-images/412a677c-cfe6-4ab0-bfd7-02b232ba16b5.jpg?imgeng=/w_1920/);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+  align-items: center;
+  width: 100%;
+}
+
+.headerImageAndText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+
+.SignUpStyle {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.welcomeParagrap {
+  text-align: center;
+  color: #000;
+  font-family: Inter;
+}
+
+.forgotParagrap {
+  color: #cfc0cf;
+  cursor: pointer;
+  font-family: Inter;
+}
+
+.signParagrap {
+  color: #cfc0cf;
+  cursor: pointer;
+  font-family: Inter;
+}
+
+.orImages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.orContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 479px;
+  border-top: 1px solid #cfc0cf;
+  padding-top: 20px;
+}
+
+.passwordAndTextStyle {
+  position: relative;
+}
+
+.passwordImageStyle {
+  position: absolute;
+  top: 12px;
+  left: 434px;
+  cursor: pointer;
+}
+
+.confimPasswordContainer {
+  position: relative;
+}
+
+.confrimPasswordStyle {
+  position: absolute;
+  top: 12px;
+  left: 434px;
+  cursor: pointer;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .confrimPasswordStyle {
+    left: 420px;
+  }
+
+  .passwordImageStyle {
+    left: 420px;
+  }
+
+  .container {
+    gap: 18px;
+    padding: 35px;
+  }
+
+  .orContainer {
+    width: 460px;
+  }
+
+  .becground {
+    background-size: auto 100%;
+    background-position: center;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    gap: 10px;
+  }
+
+  .orContainer {
+    width: 261px;
+  }
+
+  .confrimPasswordStyle {
+    left: 222px;
+  }
+
+  .passwordImageStyle {
+    left: 222px;
+  }
+
+  .becground {
+    background-size: auto 100%;
+    background-position: center;
+    background-color: black;
+  }
+}

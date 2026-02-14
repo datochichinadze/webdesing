@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  overflow: hidden;
+}
+
+.cardDivContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.byCardContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.carCategory {
+  font-size: 60px;
+}
+
+.byCardMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 0px 35px 20px;
+  background-color: #f3f3f3;
+}
+
+.headerCard {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.trendStyle {
+  font-size: 60px;
+}
+
+.buttonView {
+  border-radius: 20px;
+  background-color: #73a0ff;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.buttonView:hover {
+  transform: scale(1.05);
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .byCardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .byCardContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .buttonView {
+    width: 70px;
+  }
+}

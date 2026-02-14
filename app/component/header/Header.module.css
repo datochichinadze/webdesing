@@ -1,0 +1,88 @@
+.containers {
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer {
+  background-image: url(https://i.pinimg.com/736x/19/b3/fd/19b3fda3d2e04af23b5aeb1b00b1e56a.jpg);
+  height: 130dvh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 20px;
+  align-items: center;
+  color: black;
+  padding: 0px 10px 0px 0px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.headerParagrapContainer {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.headerParagrapStyle {
+  color: #898989;
+  cursor: pointer;
+}
+
+.headerParagrapStyle:hover {
+  color: black;
+  background-color: #7aa7ff;
+  border-radius: 20px;
+  padding: 12px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.imageStyle {
+  background-color: #898989;
+  border-radius: 999px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+.porscheImage {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .headerParagrapContainer {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headerParagrapContainer {
+    gap: 15px;
+  }
+
+  .porscheImage {
+    width: 44px;
+    height: 44px;
+  }
+
+  .headerParagrapStyle {
+    font-size: 14px;
+  }
+
+  .headerParagrapStyle:hover {
+    padding: 7px;
+  }
+
+  .imageContainer {
+    height: 53dvh;
+  }
+}

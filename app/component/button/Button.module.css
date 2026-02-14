@@ -1,0 +1,33 @@
+.buttonStyle {
+  width: 473px;
+  height: 46px;
+  padding: 16px;
+  border-radius: 999px;
+  background-color: brown;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 16px;
+}
+
+.buttonStyle:hover {
+  background-color: rgb(177, 38, 38);
+}
+
+.buttonStyle:active {
+  background-color: rgb(139, 33, 33);
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .buttonStyle {
+    width: 460px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .buttonStyle {
+    width: 261px;
+  }
+}
