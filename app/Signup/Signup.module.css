@@ -140,7 +140,8 @@
   }
 
   .becground {
-    background-size: auto 100%;
+    background-image: url(https://i.pinimg.com/1200x/d7/c4/b8/d7c4b8f581fb482f0f45e09e2fe62a68.jpg);
+    background-size: cover;
     background-position: center;
     background-color: black;
   }
