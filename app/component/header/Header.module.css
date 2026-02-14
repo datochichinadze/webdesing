@@ -79,11 +79,12 @@
   }
 
   .headerParagrapStyle {
-    font-size: 14px;
+    font-size: 12px;
+    padding: 6px;
   }
 
   .headerParagrapStyle:hover {
-    padding: 7px;
+    padding: 6px;
   }
 
   .imageContainer {
